@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Object Model</title>
+	<style>
+	
+	.class {
+		padding: 25px;
+		background: red;
+	}
+
+	.toggle_in {
+		color: aquamarine;
+	}
+
+	.toggle_out {
+		color: black;
+	}
+
+	input {
+		padding : 0.6em;
+		
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<p class="para">class</p>
+		<p id="para">id</p>
+	</div>
+	<div class="content">
+	</div>
+	<nav class="navbar" data-number="0" data-name="navbar"></nav>
+	<nav class="navbar" data-number="1" data-name="navbar2"></nav>
+	<p class="toggle">Colot this text</p>
+	<input type="submit">
+	<button onclick='document.querySelector(".date").innerHTML = Date()' >Dtw</button>
+	<p class="date"></p>
+	<button onclick='display()'>Dtw</button>
+	<p class="date1"></p>
+
+
+	<div id="form">
+		<input type="text" placeholder="Name">
+		<input type="password" placeholder="Paassword">
+	</div>
+
+	<button class="btn">event</button>
+	<p class="para3"></p>
+	<script src="indexDOM.js"></script>
+</body>
+</html>
